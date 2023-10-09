@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: black;
+    color: white;
+    padding: 20px 10px;
+    text-align: end;
+    margin: auto;
+}
+span{
+    text-align: end;
+    padding: 5px 10px;
+}
+p{
+    margin-inline: 5px;
+    word-spacing: 20px;
+    text-align: end;
+    direction: rtl;
+}
+.learn{
+    word-spacing: 2px;
+}
+.link{
+    color: white;
+}
+@media screen and (max-width:600px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+        text-align: center;
+        justify-content: center;
+        vertical-align: center;
+    }
+    span{
+        text-align: center;
+        padding: 10px;
+        align-self: center;
+        align-items: center;
+        vertical-align: center;
+    }
+    p{
+        margin-inline: 15px;
+        word-spacing: 300px;
+        text-align: center;
+        line-height:1.7rem ;
+    }
+}
